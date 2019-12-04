@@ -1,0 +1,50 @@
+sora@sora-Inspiron-15-3567:~$ sudo lshw -short
+[sudo] password for sora: 
+H/W path        Device     Class          Description
+=====================================================
+                           system         Inspiron 15-3567 (078C)
+/0                         bus            0JTTXY
+/0/0                       memory         64KiB BIOS
+/0/3d                      memory         8GiB System Memory
+/0/3d/0                    memory         8GiB SODIMM DDR4 Synchronous Unbuffere
+/0/3d/1                    memory         [empty]
+/0/41                      memory         128KiB L1 cache
+/0/42                      memory         512KiB L2 cache
+/0/43                      memory         3MiB L3 cache
+/0/44                      processor      Intel(R) Core(TM) i3-6006U CPU @ 2.00G
+/0/100                     bridge         Xeon E3-1200 v5/E3-1500 v5/6th Gen Cor
+/0/100/2                   display        Skylake GT2 [HD Graphics 520]
+/0/100/4                   generic        Xeon E3-1200 v5/E3-1500 v5/6th Gen Cor
+/0/100/14                  bus            Sunrise Point-LP USB 3.0 xHCI Controll
+/0/100/14/0     usb1       bus            xHCI Host Controller
+/0/100/14/0/2              input          Gaming Mouse
+/0/100/14/0/5              multimedia     Integrated_Webcam_HD
+/0/100/14/0/6              generic        USB2.0-CRW
+/0/100/14/0/8              communication  Bluetooth wireless interface
+/0/100/14/1     usb2       bus            xHCI Host Controller
+/0/100/14.2                generic        Sunrise Point-LP Thermal subsystem
+/0/100/15                  generic        Sunrise Point-LP Serial IO I2C Control
+/0/100/15.1                generic        Sunrise Point-LP Serial IO I2C Control
+/0/100/16                  communication  Sunrise Point-LP CSME HECI #1
+/0/100/17                  storage        Sunrise Point-LP SATA Controller [AHCI
+/0/100/1c                  bridge         Sunrise Point-LP PCI Express Root Port
+/0/100/1c/0                display        Sun XT [Radeon HD 8670A/8670M/8690M / 
+/0/100/1c.4                bridge         Sunrise Point-LP PCI Express Root Port
+/0/100/1c.4/0   wlp2s0     network        QCA9565 / AR9565 Wireless Network Adap
+/0/100/1c.5                bridge         Sunrise Point-LP PCI Express Root Port
+/0/100/1c.5/0   enp3s0     network        RTL810xE PCI Express Fast Ethernet con
+/0/100/1f                  bridge         Sunrise Point-LP LPC Controller
+/0/100/1f.2                memory         Memory controller
+/0/100/1f.3                multimedia     Sunrise Point-LP HD Audio
+/0/100/1f.4                bus            Sunrise Point-LP SMBus
+/0/1            scsi0      storage        
+/0/1/0.0.0      /dev/sda   disk           120GB KINGSTON SA400S3
+/0/1/0.0.0/1    /dev/sda1  volume         500MiB Windows NTFS volume
+/0/1/0.0.0/2    /dev/sda2  volume         76GiB Windows NTFS volume
+/0/1/0.0.0/3    /dev/sda3  volume         543MiB Windows NTFS volume
+/0/1/0.0.0/4    /dev/sda4  volume         34GiB Extended partition
+/0/1/0.0.0/4/5  /dev/sda5  volume         34GiB EXT4 volume
+/0/2            scsi1      storage        
+/0/2/0.0.0      /dev/sdb   disk           500GB TOSHIBA MQ01ABF0
+/0/2/0.0.0/1    /dev/sdb1  volume         465GiB Windows NTFS volume
+/1                         power          DELL VN3N047
