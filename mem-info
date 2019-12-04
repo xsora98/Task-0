@@ -1,0 +1,36 @@
+1.
+
+sora@sora-Inspiron-15-3567:~$ vmstat
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0      0 5244344  50300 1095588    0    0   205    45  294 1429 12  4 83  0  0
+2. 
+
+
+sora@sora-Inspiron-15-3567:~$ vmstat -s
+      7936704 K total memory
+      1774568 K used memory
+      2046952 K active memory
+       779944 K inactive memory
+      4588884 K free memory
+       119924 K buffer memory
+      1453328 K swap cache
+      1657880 K total swap
+            0 K used swap
+      1657880 K free swap
+        52577 non-nice user cpu ticks
+          212 nice user cpu ticks
+        15317 system cpu ticks
+       361298 idle cpu ticks
+         1299 IO-wait cpu ticks
+            0 IRQ cpu ticks
+         2536 softirq cpu ticks
+            0 stolen cpu ticks
+       955444 pages paged in
+       183852 pages paged out
+            0 pages swapped in
+            0 pages swapped out
+      1270732 interrupts
+      6221000 CPU context switches
+   1575462946 boot time
+         2948 forks
